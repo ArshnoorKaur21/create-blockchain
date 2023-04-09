@@ -1,0 +1,19 @@
+minting- this is well note term for adding more coins or printing mre money to be simple
+signing-it is popular mechanism in cryptography, use secp256k1 for generting key pairs
+We are using a package called elliptic, note that elliptic also supports Curve25519 and other algorithms.
+validations:-
+this chain is valid when all blocks have valid transactions, transactiosn are valid only when:-
+1. from,to, amount are not empty
+2. senders address ahs more money than amount address
+3. signature matches with data of transaction
+
+
+ganache is a personal blockchain stimulator, local blockchain that we can run on our system
+here in ganache fake ethers are provided by which we can run,deploy and testify our decentralozed application
+
+truffle uses ganache for deployment
+ganache is used for setting personal blockchain for testing solidity contracts
+
+genache is used for deploying testing develop dapps
+truffle provides environemnt for devolping dapps
+if we want to integrate smart contratcs with truffle its very difficult with remix but easy with truffle
